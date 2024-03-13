@@ -223,9 +223,10 @@ a{
 /* exta niser ses er box er kaj  */
 .blocky{
     display: block;
-    height: 350px;
+    width: 98%;
+    height: 200px;
     background-color: wheat;
-    margin: 5px;
+    margin: 10px;
     padding: 2px;
     text-align: left;
     border-radius: 5px;
@@ -234,7 +235,8 @@ a{
 
 .blocky p {
     position:absolute;
-    width: 230px;
+    width: 25%;
+    margin: 0 5px;
     padding: 5px;
     background-color: #319b2e;
     border: 1px solid red;
@@ -242,14 +244,6 @@ a{
     color: white;
     font-size: 18px;
 
-}
-.blocky ol {
-    margin-top: 35px;
-}
-.blocky  li {
-    padding: 5px 0 0 0;
-    margin: 0 0 0 25px;
-    
 }
 
  /* end of exta niser ses er box er kaj  */
@@ -297,7 +291,6 @@ a{
     border: 1px solid green;
 }
 
-
 /* Contract us  */
 .c-main-body{ 
     width: fit-content;
@@ -335,8 +328,6 @@ form{
     color: aqua;
 }
 .contract-iteams input{
-    //border: 2px solid red;
-    //margin:25px 0 5px 0;
     font-size: 14px;
     width: 400px;
     background-color: rgba(0,0,0,.1);
