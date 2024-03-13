@@ -369,63 +369,48 @@ form{
 }
 
 /* star footer */
-footer{
+.footer-bg{
+    width: 100%;
     background-color: rgba(6, 1, 1, 0.5);
-    color: rgb(7, 7, 7);    
-}
-.footer-logo {
-    margin-top: 25px;
-    border-right: 2px solid rgb(249, 247, 247);
-   
-}
-.footer-logo img {
-    width: 100px;
-    height: 100px;
-    margin:0 25px; 
+    color: rgb(7, 7, 7);
 }
 .footer-text{
-    font-size: 12px;
-    text-wrap: nowrap;
-    margin-top: 25px;
-    padding: 0;
-    border-right: 2px solid rgb(249, 247, 247);
     text-align: center;
-   
-
-}
-.footer-text h3{
-    font-size: 12px;
-    text-wrap: nowrap;
-    margin-top: 5px;
-}
-.footer-text h6{
-    font-size: 10px;
-    text-wrap: nowrap;
-    margin-top: 2px;
+    padding: 50px 0;
+    border-left: 2px solid #fff ;
+    border-right: 2px solid #fff ;
 
 }
 
 .f-icons{
-    margin:25px 0 0 0 ;
-    align-items: center;   
+    padding: 50px 0 0 0 ;   
     
 }
-.f-icons h6{
-    margin-top: 20px;
+.f-icons h5{
+    width: 50%;
     border-bottom:2px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     text-align: center;
+    padding: 10px;
+    margin: 0 110px;
 }
-.f-icons a i{
-    width: 20px;
-    height: 20px;
+.f-contract-icons{
+    margin: 0 100px;
+}
+
+.f-contract-icons a i{
     background: #052c8e;
     border-radius: 90px;
-    padding: 2px;
-    margin-left: 25px;
+    padding: 15px;
+    margin: 25px 10px 10px 10px;
+}
+.f-contract-icons a i:hover{
+    background: #7bc212;
+    padding: 20px;
 }
 
 .copyr8{
     text-align: center;
-    font-size: 8px;
+    font-size: 16px;
+    padding: 20px 0;
 }
