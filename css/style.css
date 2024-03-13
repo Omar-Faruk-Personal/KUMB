@@ -5,6 +5,7 @@
 }
 body{
     font-family: sans-serif;
+    background: linear-gradient(#ff2000,#ffa000);
 }
 a{
     text-decoration: none;
@@ -67,22 +68,30 @@ a{
     border: 2px solid yellow;
 }
 .person-title{
-    background: #7555bf;
-    width: 150px;
+    /* width: 150px; */
     height: auto;
-    color: red;
-    background: #fff;
-    margin: 20px 0 0 90px ;
+    color: #000;
+    margin: 0px 0 0 30px ;
     padding: 5px;
+    text-align: center;
+    /* background: #0d6efd; */
+    text-wrap: nowrap;
 
 }
 .person-name {
     width: 150px;
     height: auto;
     color: black;
-    ackground: #000;
-    margin: 5px 0 20px 60px ;
-    padding: 2px;
+    margin:2px 50px;
+    padding: 5px;
+    text-align: center;
+}
+.person-name a{
+    text-decoration: underline;
+    color: #000;  
+}
+.person-name a:hover{
+    color: #fff;   
 }
 .person-msg{
     width: 90%;
