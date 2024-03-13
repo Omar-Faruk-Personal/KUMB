@@ -16,7 +16,7 @@ a{
 }
 
 .slide-body{
-    padding-top: 10px;
+    padding-top: 2px;
 }
 .slide-img{
     width: 100%;
@@ -34,6 +34,20 @@ a{
     margin: 25px;
     
 }
+
+/* news box */
+.news-body{
+    border: 2px solid black;
+    margin-top: 5px;
+    background-color: #fff;
+}
+.news-tittle{
+    color:red;
+    font-size: 18px;
+    text-align:right;   
+}
+
+/* end news box */
 
 
 /* info box  */
@@ -177,18 +191,21 @@ a{
 .all{
     text-decoration: none;
     float: right;
-    margin-right: 10px;
+    margin-top: -40px;
+    margin-left: 340px;
     padding:0 5px;
     background-color: red;
     border: 1px solid black;
     border-radius: 5px;
     color: white;
+    overflow: hidden;
+    position: absolute;
 }
 .all:hover{
     background-color: #7555bf;
     border: 1px solid white;
     border-radius: 5px;
-    color: red;
+    color: black;
 }
 
 /* slide button  */
@@ -200,12 +217,7 @@ a{
     border: 1px solid black;
     margin: 5px;
 }
-.blockx{
-    width: 98%;
-    margin: 10px;
-    margin-top: 40px;
-    padding: 15px;   
-}
+
 .blockx :hover{
     background-color: rgb(10, 10, 10);
     color: red;
