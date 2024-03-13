@@ -104,6 +104,7 @@ body{
     height: 350px;
     overflow: hidden;
     margin: 10px;
+    background-color: wheat;
  }
  .notice-box h4{
     background-color: rgb(203, 80, 80);
@@ -115,13 +116,127 @@ body{
  .notice-box ul li {
     list-style: none;
  }
- .notice-box ul li span {
+ /* .notice-box ul li span {
     background:green;
+ } */
+ .notice-box ul li a {
+    text-decoration: none;
+    color: #000;  
+    padding-right: 15px;
+    text-wrap: wrap;
  }
- .notice-box ul li p {
+ .notice-box marquee {
+    height: 300px;
+    border-radius: 5px;
+ }
+ .ntc-date {
+    width: 73px;
+    float: left;
+    margin: .111em 10px 0 0 ;
+    background:#e6caca;
+    font-size: .86em;
+    line-height: 1em;
+    color: #5e5b5c;
+    text-align: center;
+}
+ .ntc-date span{
+    display: block;
+    padding: 0 0 0 0;
+    font-size: 1em;
+    line-height: 1.467em;
+    color: #fff;
+    background-color: green;
+    border-radius: 3px 3px 0 0 ;
+}
+
+.all{
+    text-decoration: none;
+    float: right;
+    margin-right: 10px;
+    padding:0 5px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.all:hover{
+    background-color: #7555bf;
+    border: 1px solid white;
+    border-radius: 5px;
     color: red;
+}
+
+/* slide button  */
+#block{
+    color: white;
+    font-size: 18px;
+    text-align: left ;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.blockx{
+    width: 98%;
+    margin: 10px;
+    margin-top: 40px;
+    padding: 15px;   
+}
+.blockx :hover{
+    background-color: rgb(10, 10, 10);
+    color: red;
+}
+#block a{
+    font-size: 16px;  
+    margin: 5px;
+    padding: 2px;
+    text-align: left ;
+}
+.block-information{
+    background-color: rgb(72, 205, 92);
+}
+.block-class-rutin{
+    background-color: rgb(196, 137, 21);
+}
+.block-exam-rutin{
+    background-color: rgb(13, 226, 237);
+}
+.block-result{
+    background-color: rgb(38, 75, 178);
+}
+
+/* exta niser ses er box er kaj  */
+.blocky{
+    display: block;
+    height: 300px;
+    background-color: wheat;
+    margin: 5px;
+    padding: 2px;
+    text-align: left;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+.blocky p {
+    position:absolute;
+    width: 230px;
+    padding: 5px;
+    background-color: #319b2e;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+
+}
+.blocky ol {
+    margin-top: 35px;
+}
+.blocky  li {
+    padding: 5px 0 0 0;
+    margin: 0 0 0 25px;
     
- }
+}
+
+/* end of exta niser ses er box er kaj  */
 
   /* end info side slide box  */
 
