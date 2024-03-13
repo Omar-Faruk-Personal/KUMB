@@ -98,6 +98,33 @@ body{
 
 /* end of info-box css  */
 
+ /* info side slide box  */
+ .notice-box{
+    width: 98%;
+    height: 350px;
+    overflow: hidden;
+    margin: 10px;
+ }
+ .notice-box h4{
+    background-color: rgb(203, 80, 80);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+ }
+ .notice-box ul li {
+    list-style: none;
+ }
+ .notice-box ul li span {
+    background:green;
+ }
+ .notice-box ul li p {
+    color: red;
+    
+ }
+
+  /* end info side slide box  */
+
 /* star footer */
 footer{
     background-color: rgba(6, 1, 1, 0.5);
