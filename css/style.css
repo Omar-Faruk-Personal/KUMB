@@ -71,7 +71,7 @@ body{
     height: auto;
     color: red;
     background: #fff;
-    margin: 20px 0 0 50px ;
+    margin: 20px 0 0 90px ;
     padding: 5px;
 
 }
@@ -80,7 +80,7 @@ body{
     height: auto;
     color: black;
     ackground: #000;
-    margin: 5px 0 20px 50px ;
+    margin: 5px 0 20px 60px ;
     padding: 2px;
 }
 .person-msg{
@@ -95,6 +95,21 @@ body{
     padding: 20px;
     font-size: 16px;
 }
+
+/* school - info  */
+.school-info-title {
+    margin: 10px;
+    padding: 10px;
+
+}
+.school-info-title h4{
+    border-bottom: 1px solid rgba(6, 1, 1, 0.5);
+    border-radius: 5px;
+    padding: 10px 25px;
+    
+}
+
+/* end school - info  */
 
 /* end of info-box css  */
 
