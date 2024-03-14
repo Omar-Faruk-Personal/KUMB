@@ -286,20 +286,22 @@ a{
 
 .gellary-tittle{
     width: fit-content;
-    border: 2px solid rgba(207, 23, 23, 0.2);
     border-radius: 30%;
-    color: burlywood;
     padding: 20px;  
-}
-.gellary-tittle:hover{
     color:white;
     background-color: chocolate; 
     border: 2px solid black;
 }
+.gellary-tittle:hover{
+    color:black;
+    background-color: rgb(133, 115, 102); 
+    border: 2px solid rgb(255, 255, 255);
+}
+.gellary-tittle a:hover{
+    color: #000;  
+}
 .gellary-tittle a {
-    color: burlywood;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 .gellary-block{
@@ -315,6 +317,14 @@ a{
     width: 200px;
     height: 200px;
     border: 1px solid green;
+}
+.btn-see-more{
+    width: fit-content;
+}
+.btn-see-more:hover{
+    background-color: #7555bf;
+    color: black;
+    border: 2px solid white;
 }
 
 /* star footer */
