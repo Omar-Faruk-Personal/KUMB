@@ -289,7 +289,6 @@ a{
     border: 2px solid rgba(207, 23, 23, 0.2);
     border-radius: 30%;
     color: burlywood;
-    margin:0 150px 0 350px;
     padding: 20px;  
 }
 .gellary-tittle:hover{
@@ -300,6 +299,7 @@ a{
 .gellary-tittle a {
     color: burlywood;
     text-decoration: none;
+    
 }
 
 .gellary-block{
@@ -315,79 +315,6 @@ a{
     width: 200px;
     height: 200px;
     border: 1px solid green;
-}
-
-/* Contract us  */
-.c-main-body{ 
-    width: fit-content;
-    height: 100vh;
-    margin: 50px 10px;
-    padding: 40px;
-}
-.contract-header{
-    width: fit-content;
-    height: fit-content;
-    color: rgb(229, 203, 11);
-    border-bottom : 5px solid rgb(204, 99, 105);
-    border-top : 5px solid rgb(204, 99, 105);
-    border-radius: 100px;
-    margin:250px 0;
-    padding: 10px;
-}
-.contract-iteams{
-    width: fit-content ;
-    height: 80vh;
-    border-left:5px solid rgb(204, 99, 105);
-    border-right:5px solid rgb(204, 99, 105);
-    border-radius: 100px;
-
-    margin:0 0 0 50px;
-    padding: 50px;
-}
-form{
-    margin: 0 0 0 150px;
-}
-.contract-iteams{
-    width: fit-content ;
-    height:fit-content;
-    background: white;
-}
-.contract-iteams label{
-    //border: 2px solid red;
-    margin:25px 0 5px 0;
-    font-size: 18px;
-    color: aqua;
-}
-.contract-iteams input{
-    font-size: 14px;
-    width: 400px;
-    background-color: rgba(0,0,0,.1);
-    color: white;
-    text-align: center;
-    
-}
-.contract-iteams input:hover{
-    background-color: rgba(255,255,255,1);
-    color-interpolation-filters: black;
-    text-align: center;
-}
-
-.input-message{
-    height: 100px;
-}
-.sent-message{
-    width: fit-content;
-    margin: 50px 0 0 200px;
-    border: 2px solid rgb(8, 8, 8);
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #0d6efd;
-    color: #fff;
-}
-.sent-message:hover{
-    background-color: blueviolet;
-    color: #fff;
-    border: 2px solid white;
 }
 
 /* star footer */
