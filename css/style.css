@@ -6,7 +6,8 @@
 body{
     font-family: sans-serif;
     background: linear-gradient(#ff2000,#ffa000);
-}
+    background-repeat: no-repeat;
+   
 a{
     text-decoration: none;
     color: #fff;
