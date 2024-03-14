@@ -7,6 +7,7 @@ body{
     font-family: sans-serif;
     background: linear-gradient(#ff2000,#ffa000);
     background-repeat: no-repeat;
+}
    
 a{
     text-decoration: none;
@@ -345,6 +346,11 @@ a{
 }
 form{
     margin: 0 0 0 150px;
+}
+.contract-iteams{
+    width: fit-content ;
+    height:fit-content;
+    background: white;
 }
 .contract-iteams label{
     //border: 2px solid red;
