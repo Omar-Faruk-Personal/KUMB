@@ -88,4 +88,29 @@ a{
     color: #fff;
     border: 2px solid white;
 }
+footer{
+    background-color: rgba(109, 107, 107,.5);
+}
+.block1{
+    display: flex;
+}
+.block1 img{
+    width: 100px;
+    height: 100px;
+}
+.block2{
+    text-decoration: none;
+    
+}
+.block2 menu ul{
+    list-style: none;
+    margin:15px;
+}
+.block2 menu ul li a{
+    padding: 5px;
+    color: red;
+}
+.block2 menu ul li a:hover{
+    color: rgb(19, 19, 19);
+}
 
