@@ -27,6 +27,9 @@ a{
     justify-content: center;
     align-items: center;
 }
+.header{
+    border-bottom: 2px solid rgba(109, 107, 107,.5);
+}
 
 .contract-header{
     width: 90%;
@@ -88,7 +91,8 @@ a{
     color: #fff;
     border: 2px solid white;
 }
-footer{
+
+.footer-row{
     background-color: rgba(109, 107, 107,.5);
 }
 .block1{
@@ -100,7 +104,11 @@ footer{
 }
 .block2{
     text-decoration: none;
+    border-left: 2px solid red;
     
+}
+.li-hdr{
+    font-size: 18px;
 }
 .block2 menu ul{
     list-style: none;
