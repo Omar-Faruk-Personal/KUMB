@@ -287,7 +287,8 @@ a{
 .gellary-tittle{
     width: fit-content;
     border-radius: 30%;
-    padding: 20px;  
+    padding: 20px;
+    margin:5px 400px;  
     color:white;
     background-color: chocolate; 
     border: 2px solid black;
