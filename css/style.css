@@ -314,13 +314,14 @@ a{
     
 }
 .gellary-img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 1px solid green;
 }
 .btn-see-more{
     width:fit-content;
     height: 40px;
+    margin: 5px 100px ;
 }
 .btn-see-more:hover{
     background-color: #7555bf;
