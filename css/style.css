@@ -319,7 +319,8 @@ a{
     border: 1px solid green;
 }
 .btn-see-more{
-    width: fit-content;
+    width:fit-content;
+    height: 40px;
 }
 .btn-see-more:hover{
     background-color: #7555bf;
