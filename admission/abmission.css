@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    /* background-image: linear-gradient(green,red);
+    background-repeat: no-repeat; */
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.br{
+    border: 2px solid red;
+}
+.brw{
+    border: 2px solid white;
+}
+.brb{
+    border: 2px solid black;
+}
+.box-200{
+    width: 200px;
+    height: 200px;
+}
+.box-300{
+    width: 300px;
+    height: 300px;
+}
+header{
+    padding: 20px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 10px;
+
+}
+.header-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10px;
+}
+.img-box img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+
+
+.hdr-text{
+    width:fit-content;
+    height: fit-content;
+    margin: 0 0 0 10px;
+    padding: 25px;
+}
+
+.contract-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.fa{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(14, 14, 179);
+    border-radius: 90px;
+    padding: 10px;
+}
+
+/* tittle */
+.hdr-tittle{
+    padding: 50px;
+    border-bottom: 1px solid rgba(224, 13, 13, 0.5);
+    border-radius: 10px;
+  
+}
+.tittle-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tittle-text h2{
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 10px;
+
+}
