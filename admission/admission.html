@@ -50,235 +50,265 @@
       </div><!--hdr-tittle-->
 
       <!-- form  -->
-      <div class="container p-5 brb">
+      <div class="container p-5 my-2 brb">
         <div class="row g-3">
 
-          <!-- row 1  -->
-          <div class="student row ">
-            <div class="col-sm-12">
-              <h3>শিক্ষার্থীর তথ্যN</h3>
-            </div>
-            <div class="col-sm-6">
-              <label for="name-eng" class="form-label">শিক্ষার্থীর নাম ইংরেজিতে</label>
-              <input type="text" class="form-control" id="name-eng" placeholder=" All letter is capital">
-            </div>
-            <div class="col-sm-6">
-              <label for="name-ban" class="form-label">শিক্ষার্থীর নাম বাংলায়</label>
-              <input type="text" class="form-control" id="name-ban" placeholder=" Name of Bangla">
-            </div>
-            <!-- end row 1  -->
+         
+          
+            <div class="student row ">
+              <div class="col-sm-12 px-5 py-3">
+                <h3>শিক্ষার্থীর তথ্য</h3>
+              </div>
+            <!-- row 1  -->
+            <div class="row py-4 ">
+              <div class="col-sm-6 ">
+                <label for="name-eng" class="form-label">শিক্ষার্থীর নাম ( ইংরেজিতে )</label>
+                <input type="text" class="form-control" id="name-eng" placeholder=" All letter is capital">
+              </div>
+              <div class="col-sm-6 ">
+                <label for="name-ban" class="form-label">শিক্ষার্থীর নাম বাংলায়</label>
+                <input type="text" class="form-control" id="name-ban" placeholder=" Name of Bangla">
+              </div>
+            </div><!-- end row 1  -->
 
             <!-- row 2 -->
-            <div class="col-sm-3">
-              <label for="validationDefault04" class="form-label">ভর্তির শ্রেণী</label>
-              <select class="form-select" id="validationDefault04" required>
-                <option selected disabled value="">Choose...</option>
-                <option>প্লে</option>
-                <option>নার্সারি</option>
-                <option>প্রথম</option>
-                <option>দ্বিতীয়</option>
-                <option>তৃতীয়</option>
-                <option>চতুর্থ</option>
-                <option>পঞ্চম</option>
-              </select>
-            </div>    
+            <div class="row py-4">
+              <div class="col-sm-3">
+                <label for="validationDefault04" class="form-label">ভর্তির শ্রেণী</label>
+                <select class="form-select" id="validationDefault04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>প্লে</option>
+                  <option>নার্সারি</option>
+                  <option>প্রথম</option>
+                  <option>দ্বিতীয়</option>
+                  <option>তৃতীয়</option>
+                  <option>চতুর্থ</option>
+                  <option>পঞ্চম</option>
+                </select>
+              </div>    
+  
+              <div class="col-sm-3">
+                <label for="roll" class="form-label">বিদ্যালয় কর্তৃক রোল</label>
+                <input type="number" class="form-control" id="roll" placeholder="Class roll given school">
+              </div>
+  
+              <div class="col-sm-3">
+                <label for="Religion" class="form-label">ধর্ম</label>
+                <select class="form-select" id="Religion" required>
+                  <option selected disabled value=""> Choose,,, </option>
+                  <option>ইসলাম</option>
+                  <option>হিন্দু</option>
+                  <option>বৌদ্ধ</option>
+                  <option>খ্রিস্টান</option>
+                </select>
+              </div>
+  
+              <div class="col-sm-3">
+                লিঙ্গ <br>
+                <input type="radio" name="gender" id="male">
+                <label for="male">ছেলে</label> <br>
+                <input type="radio" name="gender" id="female">
+                <label for="female">মেয়ে </label>
+              </div>
 
-            <div class="col-sm-3">
-              <label for="roll" class="form-label">বিদ্যালয় কর্তৃক রোল</label>
-              <input type="number" class="form-control" id="roll" placeholder="Class roll given school">
-            </div>
+            </div><!-- end row 2 -->
 
-            <div class="col-sm-3">
-              <label for="Religion" class="form-label">ধর্ম</label>
-              <select class="form-select" id="Religion" required>
-                <option selected disabled value="">Choose...</option>
-                <option>Islam</option>
-                <option>Hindu</option>
-                <option>Khistan</option>
-                <option>Boddhu</option>
-              </select>
-            </div>
-
-            <div class="col-sm-3">
-              লিঙ্গ <br>
-              <input type="radio" name="gender" id="male">
-              <label for="male">ছেলে</label> <br>
-              <input type="radio" name="gender" id="female">
-              <label for="female">মেয়ে </label>
-            </div>
-            <!-- end row 2 -->
-    
             <!-- row 3 -->
-            <div class="col-sm-4">
-              <label for="brn" class="form-label">জন্ম নিবন্ধন নম্বর </label>
-              <input type="number" class="form-control" id="brn" placeholder="">
-            </div>
-            <div class="col-sm-4">
-              <label for="birthday" class="form-label">জন্ম তারিখ</label>
-              <input type="date" class="form-control" id="birthday" placeholder="">
-            </div>
-            <div class="col-sm-4">
-              <label for="nationality" class="form-label">জাতীয়তা</label>
-              <input type="text" class="form-control" id="nationality" placeholder="">
-            </div><!-- end row 3  -->
+            <div class="row py-4">
+              <div class="col-sm-4">
+                <label for="brn" class="form-label">জন্ম নিবন্ধন নম্বর </label>
+                <input type="number" class="form-control" id="brn" placeholder="">
+              </div>
+              <div class="col-sm-4">
+                <label for="birthday" class="form-label">জন্ম তারিখ</label>
+                <input type="date" class="form-control" id="birthday" placeholder="">
+              </div>
+              <div class="col-sm-4">
+                <label for="nationality" class="form-label">জাতীয়তা</label>
+                <input type="text" class="form-control" id="nationality" placeholder="">
+              </div>
+            </div> <!-- end row 3  -->
           </div><!--end student-->
 
-          <!-- adress row 4 -->
-          <div class="adress row">
+          <!-- adress -->
+          <div class="adress row py-5">
             <h4>শিক্ষার্থীর ঠিকানা</h4>
-            <!-- line 1 -->
-            <div class="col-sm-3">
-              <label for="Village" class="form-label">গ্রাম</label>
-              <input type="text" class="form-control" id="Village" placeholder="Village Name">
-            </div>
+            <!-- adress line 1 -->
+            <div class="row py-4">
+              <div class="col-sm-3">
+                <label for="Village" class="form-label">গ্রাম</label>
+                <input type="text" class="form-control" id="Village" placeholder="Village Name">
+              </div>
+  
+              <div class="col-sm-3">
+                <label for="Post-office" class="form-label">ডাকঘর</label>
+                <input type="text" class="form-control" id="Post-office" placeholder="Post Office Name">
+              </div>
+  
+              <div class="col-sm-3">
+                <label for="Post-code" class="form-label">ওয়ার্ড </label>
+                <input type="number" class="form-control" id="Post-code" placeholder="Post code">
+              </div>
+  
+              <div class="col-sm-3">
+                <label for="Union" class="form-label">ইউনিয়ন</label>
+                <input type="text" class="form-control" id="Union" placeholder="Union Name">
+              </div>
+  
 
-            <div class="col-sm-3">
-              <label for="Post-office" class="form-label">ডাকঘর</label>
-              <input type="text" class="form-control" id="Post-office" placeholder="Post Office Name">
-            </div>
-
-            <div class="col-sm-3">
-              <label for="Post-code" class="form-label">ওয়ার্ড </label>
-              <input type="number" class="form-control" id="Post-code" placeholder="Post code">
-            </div>
-
-            <div class="col-sm-3">
-              <label for="Union" class="form-label">ইউনিয়ন</label>
-              <input type="text" class="form-control" id="Union" placeholder="Union Name">
-            </div>
-
+            </div><!-- end adress line1 -->
+            
             <!-- line2 -->
-            <div class="col-sm-3">
-              <label for="Upozila" class="form-label">উপজেলা/থানা</label>
-              <input type="text" class="form-control" id="Upozila" placeholder="Upozila Name">
-            </div>
+            <div class="row py-4">
+              <div class="col-sm-3">
+                <label for="Upozila" class="form-label">উপজেলা/থানা</label>
+                <input type="text" class="form-control" id="Upozila" placeholder="Upozila Name">
+              </div>
+  
+              <div class="col-sm-3">
+                <label for="district" class="form-label">জেলা</label>
+                <input type="text" class="form-control" id="district" placeholder="District Name">
+              </div>
+  
+              <div class="col-sm-3">
+                <label for="division" class="form-label">বিভাগ</label>
+                <input type="text" class="form-control" id="division" placeholder="Division Name">
+              </div>
+  
+              <div class="col-sm-3">
+                <label for="country" class="form-label">দেশ</label>
+                <input type="text" class="form-control" id="country" placeholder="Country Name">
+              </div>
+            </div><!-- end of adress line2 -->
 
-            <div class="col-sm-3">
-              <label for="district" class="form-label">জেলা</label>
-              <input type="text" class="form-control" id="district" placeholder="District Name">
-            </div>
-
-            <div class="col-sm-3">
-              <label for="division" class="form-label">বিভাগ</label>
-              <input type="text" class="form-control" id="division" placeholder="Division Name">
-            </div>
-
-            <div class="col-sm-3">
-              <label for="country" class="form-label">দেশ</label>
-              <input type="text" class="form-control" id="country" placeholder="Country Name">
-            </div>
-          </div> <!-- end of row 4  -->
-
-          <!-- father info Row 5 -->
-          <div class="father row">
+          <!-- father info-->
+          <div class="father row py-5">
             <h3>শিক্ষার্থীর পিতার তথ্য </h3>
 
-            <!-- line 1 -->
-            <div class="col-sm-6">
-              <label for="fname-eng" class="form-label">পিতার নাম ইংরেজিতে</label>
-              <input type="text" class="form-control" id="fname-eng" placeholder=" All letter is capital">
-            </div>
-            <div class="col-sm-6">
-              <label for="fname-ban" class="form-label">পিতার নাম বাংলায়</label>
-              <input type="text" class="form-control" id="fname-ban" placeholder=" Name of Bangla">
-            </div>
+            <!-- fatrher line 1 -->
+            <div class="row py-4">
+              <div class="col-sm-6">
+                <label for="fname-eng" class="form-label">পিতার নাম ইংরেজিতে</label>
+                <input type="text" class="form-control" id="fname-eng" placeholder=" All letter is capital">
+              </div>
+              <div class="col-sm-6">
+                <label for="fname-ban" class="form-label">পিতার নাম বাংলায়</label>
+                <input type="text" class="form-control" id="fname-ban" placeholder=" Name of Bangla">
+              </div>
+            </div> <!--end fatrher line 1 -->
 
             <!-- f-info line2 -->
-            <div class="col-sm-3">
-              <label for="f-nid" class="form-label">পিতারএনআইডি নম্বর</label>
-              <input type="number" class="form-control" id="f-nid" placeholder="NID Number ">
+            <div class="row">
+              <div class="col-sm-3">
+                <label for="f-nid" class="form-label">পিতারএনআইডি নম্বর</label>
+                <input type="number" class="form-control" id="f-nid" placeholder="NID Number ">
+              </div>
+              <div class="col-sm-3">
+                <label for="f-birthday" class="form-label">পিতার জন্ম তারিখ</label>
+                <input type="date" class="form-control" id="f-birthday" placeholder="">
+              </div>
+              <div class="col-sm-3">
+                <label for="f-mobile" class="form-label">পিতার মোবাইল নম্বর</label>
+                <input type="Number" class="form-control" id="f-mobile" placeholder="Mobile Number">
+              </div>
+              <div class="col-sm-3">
+                <label for="m-Occupation" class="form-label">পিতার পেশা</label>
+                <input type="text" class="form-control" id="m-Occupation" placeholder="Occupation">
+              </div>
             </div>
-            <div class="col-sm-3">
-              <label for="f-birthday" class="form-label">পিতার জন্ম তারিখ</label>
-              <input type="date" class="form-control" id="f-birthday" placeholder="">
-            </div>
-            <div class="col-sm-3">
-              <label for="f-mobile" class="form-label">পিতার মোবাইল নম্বর</label>
-              <input type="Number" class="form-control" id="f-mobile" placeholder="Mobile Number">
-            </div>
-            <div class="col-sm-3">
-              <label for="m-Occupation" class="form-label">পিতার পেশা</label>
-              <input type="text" class="form-control" id="m-Occupation" placeholder="Occupation">
-            </div>
-          </div><!-- end father info row 5 -->
+            </div><!--end f-info line2 -->
+            <!-- end father info row 5 -->
 
           <!-- mother info Row 5 -->
-          <div class="mother row">
+          <div class="mother row ">
             <h3>শিক্ষার্থীর মাতার তথ্য </h3>
 
-            <!-- line 1 -->
-            <div class="col-sm-6">
-              <label for="mname-eng" class="form-label">মাতার নাম ইংরেজিতে</label>
-              <input type="text" class="form-control" id="mname-eng" placeholder=" All letter is capital">
-            </div>
-            <div class="col-sm-6">
-              <label for="mname-ban" class="form-label"> মাতার নাম বাংলায়</label>
-              <input type="text" class="form-control" id="mname-ban" placeholder=" Name of Bangla">
-            </div>
+            <!-- mother line 1 -->
+            <div class="row py-4">
+              <div class="col-sm-6">
+                <label for="mname-eng" class="form-label">মাতার নাম ইংরেজিতে</label>
+                <input type="text" class="form-control" id="mname-eng" placeholder=" All letter is capital">
+              </div>
+              <div class="col-sm-6">
+                <label for="mname-ban" class="form-label"> মাতার নাম বাংলায়</label>
+                <input type="text" class="form-control" id="mname-ban" placeholder=" Name of Bangla">
+              </div>
+
+            </div><!--end mother line 1 -->
+            
 
             <!-- m-info line2 -->
-            <div class="col-sm-3">
-              <label for="m-nid" class="form-label">মাতার এনআইডি নম্বর </label>
-              <input type="number" class="form-control" id="m-nid" placeholder="NID Number ">
-            </div>
-            <div class="col-sm-3">
-              <label for="m-birthday" class="form-label">মাতার জন্ম তারিখ</label>
-              <input type="date" class="form-control" id="m-birthday" placeholder="">
-            </div>
-            <div class="col-sm-3">
-              <label for="m-mobile" class="form-label">মাতার মোবাইল নম্বর</label>
-              <input type="Number" class="form-control" id="m-mobile" placeholder="Mobile Number">
-            </div>
-            <div class="col-sm-3">
-              <label for="Occupation" class="form-label">মাতার পেশা</label>
-              <input type="text" class="form-control" id="Occupation" placeholder="Occupation">
-            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <label for="m-nid" class="form-label">মাতার এনআইডি নম্বর </label>
+                <input type="number" class="form-control" id="m-nid" placeholder="NID Number ">
+              </div>
+              <div class="col-sm-3">
+                <label for="m-birthday" class="form-label">মাতার জন্ম তারিখ</label>
+                <input type="date" class="form-control" id="m-birthday" placeholder="">
+              </div>
+              <div class="col-sm-3">
+                <label for="m-mobile" class="form-label">মাতার মোবাইল নম্বর</label>
+                <input type="Number" class="form-control" id="m-mobile" placeholder="Mobile Number">
+              </div>
+              <div class="col-sm-3">
+                <label for="Occupation" class="form-label">মাতার পেশা</label>
+                <input type="text" class="form-control" id="Occupation" placeholder="Occupation">
+              </div>
+            </div><!-- end m-info line2 -->
           </div><!--end mother-->
 
           <!-- Guardian info Row 5 -->
-          <div class="guardian row">
+          <div class="guardian row py-5">
 
             <h3>পিতা মাতার অবর্তমানে অভিভাবকের তথ্য </h3>
 
             <!-- Guardian line 1 -->
-            <div class="col-sm-6">
-              <label for="gname-eng" class="form-label">অভিভাবকের নাম (ইংরেজিতে)</label>
-              <input type="text" class="form-control" id="gname-eng" placeholder=" সব অক্ষর বড় হাতের">
-            </div>
-            <div class="col-sm-6">
-              <label for="gname-ban" class="form-label">অভিভাবকের নাম (বাংলায়)</label>
-              <input type="text" class="form-control" id="gname-ban" placeholder=" Name of Bangla">
-            </div>
+            <div class="row py-4">
+              <div class="col-sm-6">
+                <label for="gname-eng" class="form-label">অভিভাবকের নাম (ইংরেজিতে)</label>
+                <input type="text" class="form-control" id="gname-eng" placeholder=" সব অক্ষর বড় হাতের">
+              </div>
+              <div class="col-sm-6">
+                <label for="gname-ban" class="form-label">অভিভাবকের নাম (বাংলায়)</label>
+                <input type="text" class="form-control" id="gname-ban" placeholder=" Name of Bangla">
+              </div>
+            </div><!--end Guardian line 1 -->
+            
  
             <!-- Guardian-info line2 -->
-            <div class="col-sm-4">
-              <label for="rl" class="form-label"> অভিভাবকের শিক্ষার্থীর সাথে সম্পর্ক </label>
-              <input type="number" class="form-control" id="rl" placeholder="সম্পর্ক">
-            </div>
-            <div class="col-sm-4">
-              <label for="g-nid" class="form-label"> অভিভাবকের এনআইডি নম্বর </label>
-              <input type="number" class="form-control" id="g-nid" placeholder="NID Number ">
-            </div>
-            <div class="col-sm-4">
-              <label for="g-birthday" class="form-label">অভিভাবকের জন্ম তারিখ</label>
-              <input type="date" class="form-control" id="g-birthday" placeholder="">
-            </div>
-            <div class="col-sm-4">
-              <label for="g-mobile" class="form-label">অভিভাবকের মোবাইল নম্বর </label>
-              <input type="Number" class="form-control" id="g-mobile" placeholder="Mobile Number">
-            </div>
-            <div class="col-sm-4">
-              <label for="g-Occupation" class="form-label">অভিভাবকের পেশা </label>
-              <input type="text" class="form-control" id="g-Occupation" placeholder="Occupation">
+            <div class="row">
+              <div class="col-sm-4">
+                <label for="rl" class="form-label"> অভিভাবকের শিক্ষার্থীর সাথে সম্পর্ক </label>
+                <input type="number" class="form-control" id="rl" placeholder="সম্পর্ক">
+              </div>
+              <div class="col-sm-4">
+                <label for="g-nid" class="form-label"> অভিভাবকের এনআইডি নম্বর </label>
+                <input type="number" class="form-control" id="g-nid" placeholder="NID Number ">
+              </div>
+              <div class="col-sm-4">
+                <label for="g-birthday" class="form-label">অভিভাবকের জন্ম তারিখ</label>
+                <input type="date" class="form-control" id="g-birthday" placeholder="">
+              </div>
+            </div><!--end Guardian-info line2 -->
+            <!--Guardian-info line3 -->
+            <div class="row py-4">
+              <div class="col-sm-4">
+                <label for="g-mobile" class="form-label">অভিভাবকের মোবাইল নম্বর </label>
+                <input type="Number" class="form-control" id="g-mobile" placeholder="Mobile Number">
+              </div>
+              <div class="col-sm-4">
+                <label for="g-Occupation" class="form-label">অভিভাবকের পেশা </label>
+                <input type="text" class="form-control" id="g-Occupation" placeholder="Occupation">
+            </div><!--end Guardian-info line2 -->
             </div><!-- end parent info row 5 -->
-
           </div><!--end guardian -->
 
 
           <!-- condition input  -->
-          <div class="condition row ">
+          <div class="condition row py-5">
             <div class="col-sm-12">
-              <h4> আমি অঙ্গীকার করছি যে ,</h4>
+              <h4> আমি অঙ্গীকার করছি যে,,,,</h4>
 
               <input type="checkbox" value="উপরের তথ্য সমূহ সত্য ও সঠিক" id="condition1">
               <label for="condition1" class="form-label"> উপরের তথ্য সমূহ সত্য ও সঠিক </label><br>
