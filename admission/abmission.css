@@ -102,3 +102,15 @@ header{
 .student{
    
 }
+.condition h4{
+    padding: 10px 0;
+}
+
+.condition input{
+    color: red;
+    padding: 10px 0;
+}
+
+.document-input h4{
+    padding: 10px 0;
+}
