@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <div class="container br ">
+  <div class="container">
     <header>
       <div class="row header-row">
         <div class="col-sm-2 img-box">
@@ -50,14 +50,11 @@
       </div><!--hdr-tittle-->
 
       <!-- form  -->
-      <div class="container p-5 my-2 brb">
-        <div class="row g-3">
-
-         
-          
+      <div class="container p-5 my-3 itams-center">
+        <div class="container row g-3 itams-center">
             <div class="student row ">
               <div class="col-sm-12 px-5 py-3">
-                <h3>শিক্ষার্থীর তথ্য</h3>
+                <h4>শিক্ষার্থীর তথ্য</h4>
               </div>
             <!-- row 1  -->
             <div class="row py-4 ">
@@ -183,7 +180,7 @@
 
           <!-- father info-->
           <div class="father row py-5">
-            <h3>শিক্ষার্থীর পিতার তথ্য </h3>
+            <h4>শিক্ষার্থীর পিতার তথ্য </h4>
 
             <!-- fatrher line 1 -->
             <div class="row py-4">
@@ -221,7 +218,7 @@
 
           <!-- mother info Row 5 -->
           <div class="mother row ">
-            <h3>শিক্ষার্থীর মাতার তথ্য </h3>
+            <h4>শিক্ষার্থীর মাতার তথ্য </h4>
 
             <!-- mother line 1 -->
             <div class="row py-4">
@@ -261,7 +258,7 @@
           <!-- Guardian info Row 5 -->
           <div class="guardian row py-5">
 
-            <h3>পিতা মাতার অবর্তমানে অভিভাবকের তথ্য </h3>
+            <h4>পিতা মাতার অবর্তমানে অভিভাবকের তথ্য </h4>
 
             <!-- Guardian line 1 -->
             <div class="row py-4">
@@ -279,7 +276,7 @@
             <!-- Guardian-info line2 -->
             <div class="row">
               <div class="col-sm-4">
-                <label for="rl" class="form-label"> অভিভাবকের শিক্ষার্থীর সাথে সম্পর্ক </label>
+                <label for="rl" class="form-label text-sucesses "> অভিভাবকের শিক্ষার্থীর সাথে সম্পর্ক </label>
                 <input type="number" class="form-control" id="rl" placeholder="সম্পর্ক">
               </div>
               <div class="col-sm-4">
@@ -339,27 +336,53 @@
 
               <h4> প্রয়োজনীয় কাগজপত্র</h4>
 
-              <label for="document-img" class="form-label">শিক্ষার্থীর ছবি </label>
-              <input type="file" id="document-img"><br>
+              <div class="row mt-3">
+                <div class="col-sm-12 pt-3">
+                  <label for="document-img" class="form-label">শিক্ষার্থীর ছবি </label><br>
+                  <input type="file" id="document-img">
+                </div>
+              </div>
 
-              <label for="document-bcimg" class="form-label">শিক্ষার্থীর জন্ম নিবন্ধন ছবি </label>
-              <input type="file" id="document-bcimg"><br>
+              <div class="row mt-3">
+                <div class="col-sm-12 pt-3">
+                  <label for="document-bcimg" class="form-label">শিক্ষার্থীর জন্ম নিবন্ধনের ছবি </label> <br>
+                 <input type="file" id="document-bcimg">
+                  
+                </div>
+              </div>
 
-              <label for="document-fnimg" class="form-label">পিতার এনআইডি </label>
-              <input type="file" id="document-fnimg"><br>
+              <div class="row mt-3">
+                <div class="col-sm-12 pt-3">
+                  <label for="document-fnimg" class="form-label">পিতার এনআইডি </label><br>
+                 <input type="file" id="document-fnimg">
+                  
+                </div>
+              </div>
 
-              <label for="document-mnimg" class="form-label">মাতার এনআইডি </label>
-              <input type="file" id="document-mnimg"><br>
+              <div class="row mt-3">
+                <div class="col-sm-12 pt-3">
+                  <label for="document-mnimg" class="form-label">মাতার এনআইডি </label><br>
+                 <input type="file" id="document-mnimg"><br>
+                  
+                </div>
+              </div>
 
-              <label for="document-gnimg" class="form-label">Sঅভিভাবকের এনআইডি </label>
-              <input type="file" id="document-gnimg">
+              <div class="row mt-3">
+                <div class="col-sm-12 pt-3">
+                  <label for="document-gnimg" class="form-label">অভিভাবকের এনআইডি </label><br>
+                 <input type="file" id="document-gnimg">
+                  
+                </div>
+              </div>
+              
             </div> <!--end col-->
           </div><!-- end document input  -->
 
           <!-- submit button  -->
-          <div class="button row ">
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+          
+          <div class=" row ">
+            <div class="col-12 button p-5">
+              <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </div><!--end submit button  -->
 
