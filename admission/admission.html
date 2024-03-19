@@ -52,45 +52,258 @@
             <!-- form  -->
             <div class="container p-5 brb">
                 <form class="row g-3">
-                    <div class="col-md-6">
-                      <label for="inputEmail4" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="inputEmail4">
+
+                  <!-- row 1  -->
+                   <div class="col-sm-12">
+                    <h3>STUDENT INFORMATION</h3>
+                   </div>
+                   <div class="col-sm-6">
+                    <label for="name-eng" class="form-label">Name Of English</label>
+                    <input type="text" class="form-control" id="name-eng" placeholder=" All letter is capital">
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="name-ban" class="form-label">Name of Bangla</label>
+                    <input type="text" class="form-control" id="name-ban" placeholder=" Name of Bangla">
+                  </div>
+                  <!-- end row 1  -->
+
+                  <!-- row 2 -->
+                  <div class="col-sm-3">
+                    <label for="validationDefault04" class="form-label">Admission Class</label>
+                    <select class="form-select" id="validationDefault04" required>
+                      <option selected disabled value="">Choose...</option>
+                      <option>Play</option>
+                      <option>Nursary</option>
+                      <option>One</option>
+                      <option>Two</option>
+                      <option>Three</option>
+                      <option>Four</option>
+                      <option>Five</option>
+                    </select>
+                  </div>
+
+                  <div class="col-sm-3">
+                    <label for="roll" class="form-label">Class Roll</label>
+                    <input type="number" class="form-control" id="roll" placeholder="Class roll given school">
+                  </div>
+
+                  <div class="col-sm-3">
+                    <label for="Religion" class="form-label">Religion</label>
+                    <select class="form-select" id="Religion" required>
+                      <option selected disabled value="">Choose...</option>
+                      <option>Islam</option>
+                      <option>Hindu</option>
+                      <option>Khistan</option>
+                      <option>Boddhu</option>
+                    </select>
+                  </div>
+
+                  <div class="col-sm-3">
+                    Gender <br>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label> <br>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                  </div>
+                  <!-- end row 2 -->
+                  <!-- row 3 -->
+                  <div class="col-sm-4">
+                    <label for="brn" class="form-label">Birth Registration Number</label>
+                    <input type="number" class="form-control" id="brn" placeholder="">
+                  </div>
+                  <div class="col-sm-4">
+                    <label for="birthday" class="form-label">Date of Birth</label>
+                    <input type="date" class="form-control" id="birthday" placeholder="">
+                  </div>
+                  <div class="col-sm-4">
+                    <label for="nationality" class="form-label">Nationality</label>
+                    <input type="text" class="form-control" id="nationality" placeholder="">
+                  </div><!-- end row 3  -->
+
+                  <!-- adress row 4 -->
+                  <h4>Adress of Student</h4>
+                  <!-- line 1 -->
+                  <div class="col-sm-3">
+                    <label for="Village" class="form-label">Village</label>
+                    <input type="text" class="form-control" id="Village" placeholder="Village Name">
+                  </div>
+
+                  <div class="col-sm-3">
+                    <label for="Post-office" class="form-label">Post Office</label>
+                    <input type="text" class="form-control" id="Post-office" placeholder="Post Office Name">
+                  </div>
+
+                  <div class="col-sm-3">
+                    <label for="Post-code" class="form-label">Post Code</label>
+                    <input type="number" class="form-control" id="Post-code" placeholder="Post code">
+                  </div>
+
+                  <div class="col-sm-3">
+                    <label for="Union" class="form-label">Union</label>
+                    <input type="text" class="form-control" id="Union" placeholder="Union Name">
+                  </div>
+
+                  <!-- line2 -->
+                  <div class="col-sm-3">
+                    <label for="Upozila" class="form-label">Upozila</label>
+                    <input type="text" class="form-control" id="Upozila" placeholder="Upozila Name">
+                  </div>
+
+                  <div class="col-sm-3">
+                    <label for="district" class="form-label">District</label>
+                    <input type="text" class="form-control" id="district" placeholder="District Name">
+                  </div>
+
+                  <div class="col-sm-3">
+                    <label for="division" class="form-label">Division</label>
+                    <input type="text" class="form-control" id="division" placeholder="Division Name">
+                  </div>
+
+                  <div class="col-sm-3">
+                    <label for="country" class="form-label">Country</label>
+                    <input type="text" class="form-control" id="country" placeholder="Country Name">
+                  </div><!-- end of row 4  -->
+
+                  <!-- father info Row 5 -->
+                  <h3>Student Father Information </h3>
+
+                  <!-- line 1 -->
+                  <div class="col-sm-6">
+                    <label for="fname-eng" class="form-label">Father Name Of English</label>
+                    <input type="text" class="form-control" id="fname-eng" placeholder=" All letter is capital">
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="fname-ban" class="form-label">Father Name of Bangla</label>
+                    <input type="text" class="form-control" id="fname-ban" placeholder=" Name of Bangla">
+                  </div>
+
+                  <!-- f-info line2 -->
+                  <div class="col-sm-3">
+                    <label for="f-nid" class="form-label">Father NID Number </label>
+                    <input type="number" class="form-control" id="f-nid" placeholder="NID Number ">
+                  </div>
+                  <div class="col-sm-3">
+                    <label for="f-birthday" class="form-label">Father Date of Birth</label>
+                    <input type="date" class="form-control" id="f-birthday" placeholder="">
+                  </div>
+                  <div class="col-sm-3">
+                    <label for="f-mobile" class="form-label">Father Mobile Number</label>
+                    <input type="Number" class="form-control" id="f-mobile" placeholder="Mobile Number">
+                  </div>
+                  <div class="col-sm-3">
+                    <label for="m-Occupation" class="form-label">Father Occupation</label>
+                    <input type="text" class="form-control" id="m-Occupation" placeholder="Occupation">
+                  </div>
+                  <!-- end father info row 5 -->
+
+                  <!-- mother info Row 5 -->
+                  <h3>Student Mother Information </h3>
+
+                  <!-- line 1 -->
+                  <div class="col-sm-6">
+                    <label for="mname-eng" class="form-label">Mother Name Of English</label>
+                    <input type="text" class="form-control" id="mname-eng" placeholder=" All letter is capital">
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="mname-ban" class="form-label">Mother Name of Bangla</label>
+                    <input type="text" class="form-control" id="mname-ban" placeholder=" Name of Bangla">
+                  </div>
+
+                  <!-- m-info line2 -->
+                  <div class="col-sm-3">
+                    <label for="m-nid" class="form-label">Mother NID Number </label>
+                    <input type="number" class="form-control" id="m-nid" placeholder="NID Number ">
+                  </div>
+                  <div class="col-sm-3">
+                    <label for="m-birthday" class="form-label">Mother Date of Birth</label>
+                    <input type="date" class="form-control" id="m-birthday" placeholder="">
+                  </div>
+                  <div class="col-sm-3">
+                    <label for="m-mobile" class="form-label">Mother Mobile Number</label>
+                    <input type="Number" class="form-control" id="m-mobile" placeholder="Mobile Number">
+                  </div>
+                  <div class="col-sm-3">
+                    <label for="Occupation" class="form-label">Mother Occupation</label>
+                    <input type="text" class="form-control" id="Occupation" placeholder="Occupation">
+                  </div><!-- end mother info row 5 -->
+
+                  <!-- Guardian info Row 5 -->
+                  <h3>Student Parent's current Guardian Information </h3>
+
+                  <!-- Guardian line 1 -->
+                  <div class="col-sm-6">
+                    <label for="gname-eng" class="form-label">Guardian Name Of English</label>
+                    <input type="text" class="form-control" id="gname-eng" placeholder=" All letter is capital">
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="gname-ban" class="form-label">Guardian Name of Bangla</label>
+                    <input type="text" class="form-control" id="gname-ban" placeholder=" Name of Bangla">
+                  </div>
+
+                  <!-- Guardian-info line2 -->
+                  <div class="col-sm-3">
+                    <label for="g-nid" class="form-label"> Guardian NID Number </label>
+                    <input type="number" class="form-control" id="g-nid" placeholder="NID Number ">
+                  </div>
+                  <div class="col-sm-3">
+                    <label for="g-birthday" class="form-label">Guardian Date of Birth</label>
+                    <input type="date" class="form-control" id="g-birthday" placeholder="">
+                  </div>
+                  <div class="col-sm-3">
+                    <label for="g-mobile" class="form-label">Guardian Mobile</label>
+                    <input type="Number" class="form-control" id="g-mobile" placeholder="Mobile Number">
+                  </div>
+                  <div class="col-sm-3">
+                    <label for="g-Occupation" class="form-label">Guardian Occupation</label>
+                    <input type="text" class="form-control" id="g-Occupation" placeholder="Occupation">
+                  </div><!-- end parent info row 5 -->
+
+                  <!-- condition input  -->
+                  <div class="condition">
+                    <div class="col-sm-12">
+                      <h4> আমি অঙ্গীকার করছি যে ,</h4>
+                     
+                    <input type="checkbox" value="উপরের তথ্য সমূহ সত্য ও সঠিক" id="condition1" >
+                    <label for="condition1" class="form-label"> উপরের তথ্য সমূহ সত্য ও সঠিক </label><br>
+                  
+
+                    <input type="checkbox" value="আমার সন্তান বিদ্যালয়ের সকল নিয়ম মেনে বাধ্য থাকিবে" id="condition2" >
+                    <label for="condition2" class="form-label">আমার সন্তান বিদ্যালয়ের সকল নিয়ম মেনে বাধ্য থাকিবে </label><br>
+                    
+
+                    <input type="checkbox" value="বিদ্যালয়ের শান্তি শৃঙ্খলা ও নিয়মের পরিপন্থি কাজে জড়িত থাকলে বা উপরে কোন তথ্য ভুল প্রদান করলে কর্তৃপক্ষ প্রদত্ত যেকোন শাস্তি গ্রহণে বাধ্য থাকিব" id="condition3" >
+                    <label for="condition3" class="form-label"> বিদ্যালয়ের শান্তি শৃঙ্খলা ও নিয়মের পরিপন্থি কাজে জড়িত থাকলে বা উপরে কোন তথ্য ভুল প্রদান করলে কর্তৃপক্ষ প্রদত্ত যেকোন শাস্তি গ্রহণে বাধ্য থাকিব </label><br>
+                    
+
+                    <input type="checkbox" value=" আমি আমার সন্তানের বিদ্যালয়ের পাওনা সঠিক সময়ে পরিশোধ করতে বাধ্য থাকিব এবং বিলম্ব হলে কর্তৃপক্ষ নির্ধারিত জরিমানা মেনে তা পরিশোধ করব " id="condition4" >
+                    <label for="condition4" class="form-label"> আমি আমার সন্তানের বিদ্যালয়ের পাওনা সঠিক সময়ে পরিশোধ করতে বাধ্য থাকিব এবং বিলম্ব হলে কর্তৃপক্ষ নির্ধারিত জরিমানা মেনে তা পরিশোধ করব </label>
+
                     </div>
-                    <div class="col-md-6">
-                      <label for="inputPassword4" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="inputPassword4">
+                  </div><!-- end condition input  -->
+
+                  <!-- document input  -->
+                  <div class="document-input">
+                    <div class="col-sm-12">
+                      <h4> প্রয়োজনীয় কাগজপত্র</h4>
+
+                      <label for="document-img" class="form-label">Student Photo </label>
+                      <input type="image" id="document-img" ><br>
+
+                      <label for="document-bcimg" class="form-label">Student Birth Certificate  </label>
+                      <input type="image" id="document-bcimg" > <br>
+
+                      <label for="document-fnimg" class="form-label">Student Father NID</label>
+                      <input type="image" id="document-fnimg" ><br>
+
+                      <label for="document-mnimg" class="form-label">Student Mother NID </label>
+                      <input type="image" id="document-mnimg" ><br>
+
+                      <label for="document-gnimg" class="form-label">Student Guardian NID </label>
+                      <input type="image" id="document-gnimg" >
+
                     </div>
-                    <div class="col-12">
-                      <label for="inputAddress" class="form-label">Address</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="col-12">
-                      <label for="inputAddress2" class="form-label">Address 2</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="inputCity" class="form-label">City</label>
-                      <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="col-md-4">
-                      <label for="inputState" class="form-label">State</label>
-                      <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                      </select>
-                    </div>
-                    <div class="col-md-2">
-                      <label for="inputZip" class="form-label">Zip</label>
-                      <input type="text" class="form-control" id="inputZip">
-                    </div>
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Check me out
-                        </label>
-                      </div>
-                    </div>
+                  </div><!-- end document input  -->
+
                     <div class="col-12">
                       <button type="submit" class="btn btn-primary">Sign in</button>
                     </div>
