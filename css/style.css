@@ -40,12 +40,11 @@ a{
 
 /* news box */
 .news-body{
-    border: 2px solid black;
-    margin-top: 5px;
-    background-color: #fff;
+    /* border: 2px solid black; */
+    /* background-color: #fff; */
 }
 .news-tittle{
-    color:red;
+    color:white;
     font-size: 18px;
     text-align:right;   
 }
