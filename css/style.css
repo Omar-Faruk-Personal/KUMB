@@ -16,7 +16,11 @@ a{
 .br{
     border: 2px solid red;
 }
-
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .slide-body{
     padding-top: 2px;
 }
@@ -28,9 +32,6 @@ a{
 .button-main{
     margin: 50px;
     justify-content: space-between;
-}
-.col{
-   margin: 0 0 0 150px;
 }
 .btn{
     margin: 25px;
@@ -194,7 +195,7 @@ a{
     text-decoration: none;
     float: right;
     margin-top: -40px;
-    margin-left: 340px;
+    margin-left: 300px;
     padding:0 5px;
     background-color: red;
     border: 1px solid black;
@@ -288,7 +289,7 @@ a{
     width: fit-content;
     border-radius: 30%;
     padding: 20px;
-    margin:5px 400px;  
+    /* margin:5px 400px;   */
     color:white;
     background-color: chocolate; 
     border: 2px solid black;
